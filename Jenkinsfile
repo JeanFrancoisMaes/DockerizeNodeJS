@@ -6,10 +6,8 @@ node {
    stage 'Checkout'
 
    // Get some code from a GitHub repository
-     
-     sh'git clone https://www.github.com/JeanFrancoisMaes/DockerizeNodeJS .'
-     sh'cd master/'
-     sh'ls'
+      git url:'https://github.com/JeanFrancoisMaes/DockerizeNodeJS'
+ 
 
      
 
