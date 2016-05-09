@@ -1,5 +1,5 @@
 node {
-   
+    sh 'ls -la'
       stage 'cleaning workspace'
    sh 'rm -rf *'
    // Mark the code checkout 'stage'....
