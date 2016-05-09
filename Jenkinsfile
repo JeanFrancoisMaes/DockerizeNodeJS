@@ -1,7 +1,4 @@
 node {
-
-      stage 'cleaning workspace'
-   sh 'rm -rf *'
    // Mark the code checkout 'stage'....
    stage 'Checkout'
 
