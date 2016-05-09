@@ -6,12 +6,9 @@ node {
    stage 'Checkout'
 
    // Get some code from a GitHub repository
-    sh 'cd ..'
-    sh'git init'
-    sh'git remote add origin https://www.github.com/JeanFrancoisMaes/DockerizeNodeJS'
-    sh'git fetch origin'
-    sh'git checkout -b master --track origin/master'
- 
+    
+    stage 'building dockercontainer'
+   sh 'docker-compose up'
 
      
 
