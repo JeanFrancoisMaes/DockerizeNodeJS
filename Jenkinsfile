@@ -8,7 +8,8 @@ node {
    // Get some code from a GitHub repository
      
      sh'git clone https://www.github.com/JeanFrancoisMaes/DockerizeNodeJS .'
-   
+     sh'cd master/'
+     sh'ls'
 
      
 
